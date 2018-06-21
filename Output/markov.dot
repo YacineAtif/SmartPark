@@ -1,0 +1,20 @@
+digraph  {
+S0;
+S1;
+S2;
+S3;
+S4;
+S5;
+S0 -> S0  [key=0, weight="0.67", label="0.67"];
+S0 -> S1  [key=0, weight="0.33", label="0.33"];
+S1 -> S0  [key=0, weight="0.43", label="0.43"];
+S1 -> S1  [key=0, weight="0.57", label="0.57"];
+S2 -> S0  [key=0, weight="0.19", label="0.19"];
+S2 -> S1  [key=0, weight="0.12", label="0.12"];
+S2 -> S2  [key=0, weight="0.69", label="0.69"];
+S3 -> S0  [key=0, weight="0.27", label="0.27"];
+S3 -> S2  [key=0, weight="0.13", label="0.13"];
+S3 -> S3  [key=0, weight="0.6", label="0.6"];
+S4 -> S3  [key=0, weight="0.44", label="0.44"];
+S4 -> S4  [key=0, weight="0.56", label="0.56"];
+}
